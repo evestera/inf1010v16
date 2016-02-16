@@ -1,7 +1,8 @@
 Particle[] particles = new Particle[60000];
 
 void setup() {
-  size(1400, 800, FX2D);
+  //size(1400, 800, FX2D);
+  fullScreen(FX2D);
   for(int i = 0; i < particles.length; i++) {
     particles[i] = new Particle();
   }
