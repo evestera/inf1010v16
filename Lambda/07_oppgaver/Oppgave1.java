@@ -1,4 +1,5 @@
 import java.util.*;
+import java.util.function.*;
 
 class Oppgave1 {
     public static void main(String[] args) {
@@ -23,7 +24,9 @@ class Oppgave1 {
     }
 }
 
-// Dette grensesnittet finnes også i java.util.function
+// Dette grensesnittet ligger i java.util.function:
+/*
 interface UnaryOperator<T> {
     T apply(T t);
 }
+*/

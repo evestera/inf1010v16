@@ -1,3 +1,5 @@
+import java.util.function.*;
+
 public class Oppgave2 {
     public static void main(String[] args) {
         // 2. Fyll inn to lambda-uttrykk slik at utskriften fra programmet blir:
@@ -13,7 +15,9 @@ public class Oppgave2 {
     }
 }
 
-// Dette grensesnittet finnes også i java.util.function
+// Dette grensesnittet ligger i java.util.function:
+/*
 interface IntBinaryOperator {
     int	applyAsInt(int left, int right);
 }
+*/
